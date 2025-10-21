@@ -1,4 +1,44 @@
 {
+	"common:About": {
+		"original": "About",
+		"value": "About"
+	},
+	"common:All-Articles": {
+		"original": "All Articles",
+		"value": "All Articles"
+	},
+	"common:Blog": {
+		"original": "Blog",
+		"value": "Blog"
+	},
+	"common:Contact": {
+		"original": "Contact",
+		"value": "Contact"
+	},
+	"common:Features": {
+		"original": "Features",
+		"value": "Features"
+	},
+	"common:Get-Started": {
+		"original": "Get Started",
+		"value": "Get Started"
+	},
+	"common:Home": {
+		"original": "Home",
+		"value": "Home"
+	},
+	"common:Marketing": {
+		"original": "Marketing",
+		"value": "Marketing"
+	},
+	"common:Pricing": {
+		"original": "Pricing",
+		"value": "Pricing"
+	},
+	"common:Technology": {
+		"original": "Technology",
+		"value": "Technology"
+	},
 	"home-hero-button-text": {
 		"original": "Try This Free",
 		"value": "Try This Free"
