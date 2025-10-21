@@ -1,4 +1,8 @@
 {
+	"about/index.html": {
+		"original": "about/index.html",
+		"value": "about/index.html"
+	},
 	"index.html": {
 		"original": "index.html",
 		"value": "index.html"

@@ -1,11 +1,39 @@
 {
+	"Active-users-and-growing": {
+		"original": "Active users and growing",
+		"value": "Aktive Nutzer und wachsende Zahl\n"
+	},
+	"Amazing-team-members": {
+		"original": "Amazing team members",
+		"value": "Erstaunliche Teammitglieder\n"
+	},
 	"Beautiful-email-campaigns": {
 		"original": "Beautiful email campaigns",
 		"value": "Schöne E-Mail-Kampagnen\n"
 	},
+	"Built-for-your": {
+		"original": "Built for your",
+		"value": "Entwickelt für Ihre\n"
+	},
+	"Business": {
+		"original": "Business",
+		"value": "Geschäft\n"
+	},
+	"Established-in": {
+		"original": "Established in",
+		"value": "Gegründet in\n"
+	},
+	"Scale-your": {
+		"original": "Scale your",
+		"value": "Skalieren Sie Ihre\n"
+	},
 	"Try-This-Free": {
 		"original": "Try This Free",
 		"value": "Probieren Sie es kostenlos aus\n"
+	},
+	"Venture-capital-raised": {
+		"original": "Venture capital raised",
+		"value": "Eingeworbenes Risikokapital\n"
 	},
 	"common:About": {
 		"original": "About",
@@ -46,6 +74,14 @@
 	"common:Technology": {
 		"original": "/tags/technology/",
 		"value": "/Tags/Technologie/\n"
+	},
+	"rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E": {
+		"original": "We've built Sendit from the ground up the help grow your business faster.",
+		"value": "Wir haben Sendit von Grund auf neu entwickelt, um Ihr Unternehmen schneller wachsen zu lassen.\n"
+	},
+	"rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E": {
+		"original": "We have an extensive library of pre-written sales emails, proven marketing templates, and more to get you started on your next project.",
+		"value": "Wir verfügen über eine umfangreiche Bibliothek mit vorgefertigten Verkaufs-E-Mails, bewährten Marketingvorlagen und mehr, um Ihnen den Einstieg in Ihr nächstes Projekt zu erleichtern.\n"
 	},
 	"rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E": {
 		"original": "With Sendit, you can quickly create beautiful rich emails that capture a reader's attention, engage them, and convert them into customers.",

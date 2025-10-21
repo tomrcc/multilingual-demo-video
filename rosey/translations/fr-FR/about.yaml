@@ -1,0 +1,115 @@
+_inputs:
+  $:
+    type: object
+    comment: "[about/](https://chilly-marsh.cloudvent.net/about/)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (fr-FR)
+          comment: "[about/](https://chilly-marsh.cloudvent.net/about/)"
+          inputs:
+            - Active-users-and-growing
+            - Amazing-team-members
+            - Built-for-your
+            - Business
+            - Established-in
+            - Venture-capital-raised
+            - rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E
+        - heading: Already translated (fr-FR)
+          comment: "[about/](https://chilly-marsh.cloudvent.net/about/)"
+          inputs: []
+  Active-users-and-growing:
+    label: Active users and growing
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/about/#:~:text=Active%20users\
+      %20and%20growing)"
+    context: {}
+  Amazing-team-members:
+    label: Amazing team members
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/about/#:~:text=Amazing%20team\
+      %20members)"
+    context: {}
+  Built-for-your:
+    label: Built for your
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/about/#:~:text=Built%20for%20\
+      your)"
+    context: {}
+  Business:
+    label: Business
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/about/#:~:text=Business)"
+    context: {}
+  Established-in:
+    label: Established in
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/about/#:~:text=Established%20\
+      in)"
+    context: {}
+  Venture-capital-raised:
+    label: Venture capital raised
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/about/#:~:text=Venture%20capi\
+      tal%20raised)"
+    context: {}
+  rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E:
+    label: We've built Sendit from the ground up the help grow your busines...
+    hidden: false
+    type: markdown
+    options:
+      bold: true
+      italic: true
+      strike: true
+      link: true
+      subscript: true
+      superscript: true
+      underline: true
+      code: true
+      undo: true
+      redo: true
+      removeformat: true
+      copyformatting: true
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/about/#:~:text=We've%20built%\
+      20Sendit%20from,grow%20your%20business%20faster.)"
+    context:
+      open: false
+      title: Untranslated Text
+      icon: translate
+      content: >
+        We've built Sendit from the ground up the help grow your business faster.
+urlTranslation: about/index.html
+Active-users-and-growing: |
+  Utilisateurs actifs et en croissance
+Amazing-team-members: |
+  Des membres de l'équipe extraordinaires
+Built-for-your: |
+  Conçu pour votre
+Business: |
+  Entreprises
+Established-in: |
+  Établi en
+Venture-capital-raised: |
+  Capital-risque levé
+rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E: >
+  Nous avons conçu Sendit de A à Z pour vous aider à développer votre entreprise
+  plus rapidement.

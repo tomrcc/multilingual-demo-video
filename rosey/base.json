@@ -1,8 +1,60 @@
 {
   "version": 2,
   "keys": {
+    "Active-users-and-growing": {
+      "original": "Active users and growing",
+      "value": null,
+      "pages": {
+        "about/index.html": 1,
+        "index.html": 1
+      },
+      "total": 2
+    },
+    "Amazing-team-members": {
+      "original": "Amazing team members",
+      "value": null,
+      "pages": {
+        "about/index.html": 1,
+        "index.html": 1
+      },
+      "total": 2
+    },
     "Beautiful-email-campaigns": {
       "original": "Beautiful email campaigns",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
+    },
+    "Built-for-your": {
+      "original": "Built for your",
+      "value": null,
+      "pages": {
+        "about/index.html": 1
+      },
+      "total": 1
+    },
+    "Business": {
+      "original": "Business",
+      "value": null,
+      "pages": {
+        "about/index.html": 1,
+        "index.html": 1
+      },
+      "total": 2
+    },
+    "Established-in": {
+      "original": "Established in",
+      "value": null,
+      "pages": {
+        "about/index.html": 1,
+        "index.html": 1
+      },
+      "total": 2
+    },
+    "Scale-your": {
+      "original": "Scale your",
       "value": null,
       "pages": {
         "index.html": 1
@@ -16,6 +68,15 @@
         "index.html": 1
       },
       "total": 1
+    },
+    "Venture-capital-raised": {
+      "original": "Venture capital raised",
+      "value": null,
+      "pages": {
+        "about/index.html": 1,
+        "index.html": 1
+      },
+      "total": 2
     },
     "common:About": {
       "original": "About",
@@ -376,6 +437,22 @@
         "tags/technology/index.html": 1
       },
       "total": 29
+    },
+    "rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E": {
+      "original": "We've built Sendit from the ground up the help grow your business faster.",
+      "value": null,
+      "pages": {
+        "about/index.html": 1
+      },
+      "total": 1
+    },
+    "rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E": {
+      "original": "We have an extensive library of pre-written sales emails, proven marketing templates, and more to get you started on your next project.",
+      "value": null,
+      "pages": {
+        "index.html": 1
+      },
+      "total": 1
     },
     "rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E": {
       "original": "With Sendit, you can quickly create beautiful rich emails that capture a reader's attention, engage them, and convert them into customers.",
