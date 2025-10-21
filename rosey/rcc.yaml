@@ -1,4 +1,5 @@
-locales: []
+locales:
+  - fr
 input_lengths:
   label: 64
   textarea: 40
@@ -19,7 +20,7 @@ markdown_keys:
       copyformatting: true
 see_on_page_comment:
   enabled: true
-  base_url: https://adjective-noun.cloudvent.net/
+  base_url: https://chilly-marsh.cloudvent.net/
   comment_text: See in context
 git_history_link:
   enabled: false
