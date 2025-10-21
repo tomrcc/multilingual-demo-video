@@ -13,12 +13,20 @@ export default function Navigation({ pageUrl }) {
     languageConfig,
     availableLanguages
   } = useLanguagePicker(pageUrl);
+  const [localeData, setLocaleData] = useState(false);
+
+  const allLocales = import.meta.glob('/rosey/locales/*.json', { eager: true });
+
 
   const handleScroll = () => {
     setSticky(window.scrollY >= 70);
   };
 
   useEffect(() => {
+    const pathname = window.location.pathname;
+    const locale = pathname.split("/")[1];
+    setLocaleData(allLocales[`/rosey/locales/${locale}.json`]?.default);
+
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
@@ -153,7 +161,7 @@ export default function Navigation({ pageUrl }) {
                         onClick={handleDropdownClick}
                         data-rosey={generateRoseyId(item.text)}
                       >
-                        {item.text}
+                        {localeData?.[`common:${generateRoseyId(item.text)}`]?.value ?? item.text}
                       </a>
                       <ul className="dropdown-menu">
                         {item.dropdown.map((dropdown_item, j) => (
@@ -161,7 +169,7 @@ export default function Navigation({ pageUrl }) {
                             <a className="dropdown-item" href={dropdown_item.dropdown_link}
                             data-rosey={generateRoseyId(dropdown_item.dropdown_text)}
                             >
-                              {dropdown_item.dropdown_text}
+                              {localeData?.[`common:${generateRoseyId(dropdown_item.dropdown_link)}`]?.value ?? dropdown_item.dropdown_link}
                             </a>
                           </li>
                         ))}
@@ -173,7 +181,7 @@ export default function Navigation({ pageUrl }) {
                       className={`nav-link ${pageUrl?.pathname === item.link ? "active" : ""}`}
                       data-rosey={generateRoseyId(item.text)}
                     >
-                      {item.text}
+                      {localeData?.[`common:${generateRoseyId(item.text)}`]?.value ?? item.text}
                     </a>
                   )}
                 </li>
@@ -217,7 +225,7 @@ export default function Navigation({ pageUrl }) {
                   className="btn btn-sm btn-links"
                   data-rosey={generateRoseyId(navigation.nav_btn?.text)}
                 >
-                  {navigation.nav_btn?.text}
+                  {localeData?.[`common:${generateRoseyId(navigation.nav_btn?.text)}`]?.value ?? navigation.nav_btn?.text}
                 </a>
               </div>
             </div>
