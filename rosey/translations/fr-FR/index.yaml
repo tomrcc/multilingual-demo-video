@@ -7,13 +7,13 @@ _inputs:
       groups:
         - heading: Still to translate (fr-FR)
           comment: "[index.html](https://chilly-marsh.cloudvent.net/index.html)"
+          inputs: []
+        - heading: Already translated (fr-FR)
+          comment: "[index.html](https://chilly-marsh.cloudvent.net/index.html)"
           inputs:
             - Beautiful-email-campaigns
             - Try-This-Free
             - rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E
-        - heading: Already translated (fr-FR)
-          comment: "[index.html](https://chilly-marsh.cloudvent.net/index.html)"
-          inputs: []
   Beautiful-email-campaigns:
     label: Beautiful email campaigns
     hidden: false

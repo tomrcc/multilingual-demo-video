@@ -7,6 +7,9 @@ _inputs:
       groups:
         - heading: Still to translate (fr-FR)
           comment: Text to translate
+          inputs: []
+        - heading: Already translated (fr-FR)
+          comment: Text already translated
           inputs:
             - common:About
             - common:All-Articles
@@ -18,9 +21,6 @@ _inputs:
             - common:Marketing
             - common:Pricing
             - common:Technology
-        - heading: Already translated (fr-FR)
-          comment: Text already translated
-          inputs: []
   common:About:
     label: About
     hidden: false
