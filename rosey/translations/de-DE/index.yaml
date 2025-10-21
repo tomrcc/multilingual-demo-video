@@ -1,105 +1,102 @@
 _inputs:
   $:
     type: object
-    comment: '[index.html](https://chilly-marsh.cloudvent.net/index.html)'
+    comment: "[index.html](https://chilly-marsh.cloudvent.net/index.html)"
     options:
       place_groups_below: false
       groups:
         - heading: Still to translate (de-DE)
-          comment: '[index.html](https://chilly-marsh.cloudvent.net/index.html)'
+          comment: "[index.html](https://chilly-marsh.cloudvent.net/index.html)"
+          inputs: []
+        - heading: Already translated (de-DE)
+          comment: "[index.html](https://chilly-marsh.cloudvent.net/index.html)"
           inputs:
             - Active-users-and-growing
             - Amazing-team-members
+            - Beautiful-email-campaigns
             - Business
             - Established-in
             - Scale-your
-            - Venture-capital-raised
-            - >-
-              rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E
-        - heading: Already translated (de-DE)
-          comment: '[index.html](https://chilly-marsh.cloudvent.net/index.html)'
-          inputs:
-            - Beautiful-email-campaigns
             - Try-This-Free
-            - >-
-              rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E
+            - Venture-capital-raised
+            - rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E
+            - rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E
   Active-users-and-growing:
     label: Active users and growing
     hidden: false
     type: text
     options: {}
-    comment: >-
-      [See in
-      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Active%20users%20and%20growing)
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Active%20u\
+      sers%20and%20growing)"
     context: {}
   Amazing-team-members:
     label: Amazing team members
     hidden: false
     type: text
     options: {}
-    comment: >-
-      [See in
-      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Amazing%20team%20members)
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Amazing%20\
+      team%20members)"
     context: {}
   Beautiful-email-campaigns:
     label: Beautiful email campaigns
     hidden: false
     type: text
     options: {}
-    comment: >-
-      [See in
-      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Beautiful%20email%20campaigns)
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Beautiful%\
+      20email%20campaigns)"
     context: {}
   Business:
     label: Business
     hidden: false
     type: text
     options: {}
-    comment: >-
-      [See in
-      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Business)
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Business)"
     context: {}
   Established-in:
     label: Established in
     hidden: false
     type: text
     options: {}
-    comment: >-
-      [See in
-      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Established%20in)
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Establishe\
+      d%20in)"
     context: {}
   Scale-your:
     label: Scale your
     hidden: false
     type: text
     options: {}
-    comment: >-
-      [See in
-      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Scale%20your)
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Scale%20yo\
+      ur)"
     context: {}
   Try-This-Free:
     label: Try This Free
     hidden: false
     type: text
     options: {}
-    comment: >-
-      [See in
-      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Try%20This%20Free)
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Try%20This\
+      %20Free)"
     context: {}
   Venture-capital-raised:
     label: Venture capital raised
     hidden: false
     type: text
     options: {}
-    comment: >-
-      [See in
-      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Venture%20capital%20raised)
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Venture%20\
+      capital%20raised)"
     context: {}
   rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E:
     label: We have an extensive library of pre-written sales emails, proven...
     hidden: false
     type: markdown
-    options:
+    options: &a1
       bold: true
       italic: true
       strike: true
@@ -112,9 +109,9 @@ _inputs:
       redo: true
       removeformat: true
       copyformatting: true
-    comment: >-
-      [See in
-      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=We%20have%20an%20extensive,on%20your%20next%20project.)
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=We%20have%\
+      20an%20extensive,on%20your%20next%20project.)"
     context:
       open: false
       title: Untranslated Text
@@ -126,22 +123,10 @@ _inputs:
     label: With Sendit, you can quickly create beautiful rich emails that c...
     hidden: false
     type: markdown
-    options:
-      bold: true
-      italic: true
-      strike: true
-      link: true
-      subscript: true
-      superscript: true
-      underline: true
-      code: true
-      undo: true
-      redo: true
-      removeformat: true
-      copyformatting: true
-    comment: >-
-      [See in
-      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=With%20Sendit%2C%20you%20can,convert%20them%20into%20customers.)
+    options: *a1
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=With%20Sen\
+      dit%2C%20you%20can,convert%20them%20into%20customers.)"
     context:
       open: false
       title: Untranslated Text
@@ -165,11 +150,11 @@ Try-This-Free: |
   Probieren Sie es kostenlos aus
 Venture-capital-raised: |
   Eingeworbenes Risikokapital
-rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E: >-
+rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E:
   Wir verfügen über eine umfangreiche Bibliothek mit vorgefertigten
   Verkaufs-E-Mails, bewährten Marketingvorlagen und mehr, um Ihnen den Einstieg
   in Ihr nächstes Projekt zu erleichtern.
-rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E: >-
+rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E:
   Mit Sendit können Sie schnell ansprechende, reichhaltige E-Mails erstellen,
   die die Aufmerksamkeit der Leser auf sich ziehen, sie ansprechen und sie in
   Kunden verwandeln.

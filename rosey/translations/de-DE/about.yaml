@@ -7,6 +7,9 @@ _inputs:
       groups:
         - heading: Still to translate (de-DE)
           comment: "[about/](https://chilly-marsh.cloudvent.net/about/)"
+          inputs: []
+        - heading: Already translated (de-DE)
+          comment: "[about/](https://chilly-marsh.cloudvent.net/about/)"
           inputs:
             - Active-users-and-growing
             - Amazing-team-members
@@ -15,9 +18,6 @@ _inputs:
             - Established-in
             - Venture-capital-raised
             - rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E
-        - heading: Already translated (de-DE)
-          comment: "[about/](https://chilly-marsh.cloudvent.net/about/)"
-          inputs: []
   Active-users-and-growing:
     label: Active users and growing
     hidden: false
@@ -104,8 +104,7 @@ Amazing-team-members: |
   Erstaunliche Teammitglieder
 Built-for-your: |
   Entwickelt für Ihre
-Business: |
-  Geschäft
+Business: BUSINESSSSS QAD
 Established-in: |
   Gegründet in
 Venture-capital-raised: |

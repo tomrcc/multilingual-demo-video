@@ -7,6 +7,9 @@ _inputs:
       groups:
         - heading: Still to translate (fr-FR)
           comment: "[about/](https://chilly-marsh.cloudvent.net/about/)"
+          inputs: []
+        - heading: Already translated (fr-FR)
+          comment: "[about/](https://chilly-marsh.cloudvent.net/about/)"
           inputs:
             - Active-users-and-growing
             - Amazing-team-members
@@ -15,9 +18,6 @@ _inputs:
             - Established-in
             - Venture-capital-raised
             - rcc-markdown:We've-built-Sendit-from-the-ground-up-the-help-grow-your-business-faster%2E
-        - heading: Already translated (fr-FR)
-          comment: "[about/](https://chilly-marsh.cloudvent.net/about/)"
-          inputs: []
   Active-users-and-growing:
     label: Active users and growing
     hidden: false

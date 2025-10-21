@@ -7,19 +7,19 @@ _inputs:
       groups:
         - heading: Still to translate (fr-FR)
           comment: "[index.html](https://chilly-marsh.cloudvent.net/index.html)"
-          inputs:
-            - Active-users-and-growing
-            - Amazing-team-members
-            - Business
-            - Established-in
-            - Scale-your
-            - Venture-capital-raised
-            - rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E
+          inputs: []
         - heading: Already translated (fr-FR)
           comment: "[index.html](https://chilly-marsh.cloudvent.net/index.html)"
           inputs:
+            - Active-users-and-growing
+            - Amazing-team-members
             - Beautiful-email-campaigns
+            - Business
+            - Established-in
+            - Scale-your
             - Try-This-Free
+            - Venture-capital-raised
+            - rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E
             - rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E
   Active-users-and-growing:
     label: Active users and growing
