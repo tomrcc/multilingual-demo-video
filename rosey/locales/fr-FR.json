@@ -1,0 +1,54 @@
+{
+	"Beautiful-email-campaigns": {
+		"original": "Beautiful email campaigns",
+		"value": "De superbes campagnes par e-mail\n"
+	},
+	"Try-This-Free": {
+		"original": "Try This Free",
+		"value": "Essayez gratuitement\n"
+	},
+	"common:About": {
+		"original": "About",
+		"value": "A propos de\n"
+	},
+	"common:All-Articles": {
+		"original": "/blog",
+		"value": "/blog\n"
+	},
+	"common:Blog": {
+		"original": "Blog",
+		"value": "Blog\n"
+	},
+	"common:Contact": {
+		"original": "Contact",
+		"value": "Contact\n"
+	},
+	"common:Features": {
+		"original": "Features",
+		"value": "Caractéristiques\n"
+	},
+	"common:Get-Started": {
+		"original": "Get Started",
+		"value": "Commencer\n"
+	},
+	"common:Home": {
+		"original": "Home",
+		"value": "Accueil\n"
+	},
+	"common:Marketing": {
+		"original": "/tags/marketing/",
+		"value": "/tags/marketing/\n"
+	},
+	"common:Pricing": {
+		"original": "Pricing",
+		"value": "Tarification\n"
+	},
+	"common:Technology": {
+		"original": "/tags/technology/",
+		"value": "/tags/technologie/\n"
+	},
+	"rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E": {
+		"original": "With Sendit, you can quickly create beautiful rich emails that capture a reader's attention, engage them, and convert them into customers.",
+		"value": "Avec Sendit, vous pouvez rapidement créer de superbes e-mails riches qui captent l'attention du lecteur, l'engagent et le convertissent en client.\n"
+	}
+}
