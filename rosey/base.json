@@ -54,7 +54,7 @@
       "total": 29
     },
     "common:All-Articles": {
-      "original": "All Articles",
+      "original": "/blog",
       "value": null,
       "pages": {
         "404.html": 1,
@@ -270,7 +270,7 @@
       "total": 29
     },
     "common:Marketing": {
-      "original": "Marketing",
+      "original": "/tags/marketing/",
       "value": null,
       "pages": {
         "404.html": 1,
@@ -342,7 +342,7 @@
       "total": 29
     },
     "common:Technology": {
-      "original": "Technology",
+      "original": "/tags/technology/",
       "value": null,
       "pages": {
         "404.html": 1,

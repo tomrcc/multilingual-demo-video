@@ -29,7 +29,7 @@ _inputs:
     comment: ""
     context: {}
   common:All-Articles:
-    label: All Articles
+    label: /blog
     hidden: false
     type: text
     options: {}
@@ -71,7 +71,7 @@ _inputs:
     comment: ""
     context: {}
   common:Marketing:
-    label: Marketing
+    label: /tags/marketing/
     hidden: false
     type: text
     options: {}
@@ -85,7 +85,7 @@ _inputs:
     comment: ""
     context: {}
   common:Technology:
-    label: Technology
+    label: /tags/technology/
     hidden: false
     type: text
     options: {}
