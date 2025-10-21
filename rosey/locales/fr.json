@@ -1,4 +1,12 @@
 {
+	"Beautiful-email-campaigns": {
+		"original": "Beautiful email campaigns",
+		"value": "Beautiful email campaigns"
+	},
+	"Try-This-Free": {
+		"original": "Try This Free",
+		"value": "Try This Free"
+	},
 	"common:About": {
 		"original": "About",
 		"value": "About"
@@ -39,12 +47,8 @@
 		"original": "Technology",
 		"value": "Technology"
 	},
-	"home-hero-button-text": {
-		"original": "Try This Free",
-		"value": "Try This Free"
-	},
-	"home-hero-title": {
-		"original": "Beautiful email campaigns",
-		"value": "Beautiful email campaigns"
+	"rcc-markdown:With-Sendit-you-can-quickly-create-beautiful-rich-emails-that-capture-a-reader's-attention-engage-them-and-convert-them-into-customers%2E": {
+		"original": "With Sendit, you can quickly create beautiful rich emails that capture a reader's attention, engage them, and convert them into customers.",
+		"value": "With Sendit, you can quickly create beautiful rich emails that capture a reader's attention, engage them, and convert them into customers."
 	}
 }
