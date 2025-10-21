@@ -1,0 +1,36 @@
+_inputs:
+  $:
+    type: object
+    comment: "[index.html](https://chilly-marsh.cloudvent.net/index.html)"
+    options:
+      place_groups_below: false
+      groups:
+        - heading: Still to translate (fr)
+          comment: "[index.html](https://chilly-marsh.cloudvent.net/index.html)"
+          inputs:
+            - home-hero-button-text
+            - home-hero-title
+        - heading: Already translated (fr)
+          comment: "[index.html](https://chilly-marsh.cloudvent.net/index.html)"
+          inputs: []
+  home-hero-button-text:
+    label: Try This Free
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Try%20This\
+      %20Free)"
+    context: {}
+  home-hero-title:
+    label: Beautiful email campaigns
+    hidden: false
+    type: text
+    options: {}
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Beautiful%\
+      20email%20campaigns)"
+    context: {}
+urlTranslation: index.html
+home-hero-button-text: ""
+home-hero-title: ""
