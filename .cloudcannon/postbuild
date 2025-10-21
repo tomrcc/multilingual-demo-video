@@ -1,3 +1,8 @@
 #!/usr/bin/env bash
 
 npx "@bookshop/generate"
+
+npx rosey generate --source dist
+
+mv ./dist ./untranslated_site                  
+npx rosey build --source untranslated_site --dest dist --default-language-at-root
