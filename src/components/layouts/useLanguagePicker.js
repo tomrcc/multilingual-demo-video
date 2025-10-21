@@ -10,18 +10,17 @@ const languageConfig = {
     shortLabel: "EN",
   },
   fr: {
-    code: "fr",
+    code: "fr-FR",
     label: "Français",
     flag: "🇫🇷",
     shortLabel: "FR",
   },
-  // Add more languages here as needed:
-  // "de-DE": {
-  //   code: "de-DE",
-  //   label: "Deutsch",
-  //   flag: "🇩🇪",
-  //   shortLabel: "DE"
-  // }
+  "de-DE": {
+    code: "de-DE",
+    label: "Deutsch",
+    flag: "🇩🇪",
+    shortLabel: "DE"
+  }
 };
 
 // Function to detect language from URL
