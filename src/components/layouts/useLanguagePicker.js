@@ -9,7 +9,7 @@ const languageConfig = {
     flag: "🇺🇸",
     shortLabel: "EN",
   },
-  fr: {
+  "fr-FR": {
     code: "fr-FR",
     label: "Français",
     flag: "🇫🇷",
