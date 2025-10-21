@@ -1,5 +1,6 @@
 locales:
   - fr-FR
+  - de-DE
 input_lengths:
   label: 64
   textarea: 40
