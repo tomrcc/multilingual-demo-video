@@ -7,7 +7,8 @@ _inputs:
       groups:
         - heading: Still to translate (de-DE)
           comment: "[index.html](https://chilly-marsh.cloudvent.net/index.html)"
-          inputs: []
+          inputs:
+            - rcc-markdown:Add-a-new-paragraph-for-Tom%2E
         - heading: Already translated (de-DE)
           comment: "[index.html](https://chilly-marsh.cloudvent.net/index.html)"
           inputs:
@@ -92,8 +93,8 @@ _inputs:
       context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Venture%20\
       capital%20raised)"
     context: {}
-  rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E:
-    label: We have an extensive library of pre-written sales emails, proven...
+  rcc-markdown:Add-a-new-paragraph-for-Tom%2E:
+    label: Add a new paragraph for Tom.
     hidden: false
     type: markdown
     options: &a1
@@ -109,6 +110,15 @@ _inputs:
       redo: true
       removeformat: true
       copyformatting: true
+    comment: "[See in
+      context](https://chilly-marsh.cloudvent.net/index.html#:~:text=Add%20a%20\
+      new%20paragraph%20for%20Tom.)"
+    context: {}
+  rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E:
+    label: We have an extensive library of pre-written sales emails, proven...
+    hidden: false
+    type: markdown
+    options: *a1
     comment: "[See in
       context](https://chilly-marsh.cloudvent.net/index.html#:~:text=We%20have%\
       20an%20extensive,on%20your%20next%20project.)"
@@ -150,6 +160,8 @@ Try-This-Free: |
   Probieren Sie es kostenlos aus
 Venture-capital-raised: |
   Eingeworbenes Risikokapital
+rcc-markdown:Add-a-new-paragraph-for-Tom%2E: |
+  Fügen Sie einen neuen Absatz für Tom hinzu.
 rcc-markdown:We-have-an-extensive-library-of-pre-written-sales-emails-proven-marketing-templates-and-more-to-get-you-started-on-your-next-project%2E:
   Wir verfügen über eine umfangreiche Bibliothek mit vorgefertigten
   Verkaufs-E-Mails, bewährten Marketingvorlagen und mehr, um Ihnen den Einstieg
