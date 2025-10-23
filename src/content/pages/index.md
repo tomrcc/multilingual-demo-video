@@ -15,6 +15,9 @@ content_blocks:
     description: >-
       With Sendit, you can quickly create beautiful rich emails that capture a
       reader's attention, engage them, and convert them into customers.
+
+
+      Add a new paragraph for Tom.
     image: /images/hero/hero-image-2.png
     image_alt: Reports dashboard
     button:
@@ -49,7 +52,7 @@ content_blocks:
     image_alt: Thumbnail for video
     video_url: https://vimeo.com/45830194
   - _bookshop_name: global/header
-    title: "Sendit "
+    title: 'Sendit '
     title_suffix: Features
     remove_top_padding: true
     description: >-
